@@ -70,6 +70,7 @@ textarea {
     border-radius: 4px;
 }
 
+/* Attribute selector */
 input[type="email"] {
     border: 2px solid steelblue;
 }
@@ -94,7 +95,6 @@ button {
 button:hover {
     background-color: navy;
 }
-
 
 footer {
     background-color: lightgray;
