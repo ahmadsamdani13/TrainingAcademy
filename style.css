@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
+    color: #333333;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: navy;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* ID selector */
+#registration-form {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #999999;
+}
+
+legend {
+    font-weight: bold;
+    color: navy;
+}
+
+label {
+    display: inline-block;
+    margin: 8px 0;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+input[type="email"] {
+    border: 2px solid steelblue;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid steelblue;
+    background-color: #f0f8ff;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
